@@ -1,2 +1,3 @@
-import { Container } from './container'
-import { Header } from './header'
+export { Container } from './container'
+export { Header } from './header'
+export { Categories } from './categories'
