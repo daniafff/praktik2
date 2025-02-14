@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Container, Title} from "@/components/shared/";
+import { Container, Title, TopBar} from "@/components/shared/";
+
 
 
 export default function Home() {
@@ -8,5 +9,6 @@ export default function Home() {
       <Title size="lg" text="Все пиццы" className="font-black"></Title>
 
     </Container>
+    <TopBar/>
   );
 }
