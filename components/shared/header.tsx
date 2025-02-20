@@ -36,7 +36,7 @@ export const Header: React.FC<Props> = ({ className }) => {
                         <Button variant='outline' className='flex items-center gap-2'>
                         <User size={16}/> Войти </Button>
                         <Button variant='outline' className='flex items-center gap-2'> 520 Р 
-                        {/* <span className='h-full w-[1px] bg-white/30 mx-3' /> */}
+                        <span className='h-full w-[1px] bg-white/30 mx-3' />
                         <ShoppingCart /> 3 </Button>
                     </div>
                 </div>
