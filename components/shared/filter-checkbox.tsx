@@ -34,13 +34,6 @@ export const FilterCheckbox: React.FC<FilterCheckboxProps> = ({
                 {text}
             </label>
             {endAdornment}
-            <div className="mt-5 border-y border-y-neutral-100 py-6 pb-7">
-                <p className='font-bold mb-3'>Цена от и до:</p>
-                <div>
-                    <Input type="number" placeholder="0" min={0} max={5000} defaultValue={0} />
-                    <Input type='number' min={0} max={5000} placeholder="5000" />
-                </div> 
-            </div>
         </div>
 
 

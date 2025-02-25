@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Container, Title, TopBar} from "@/components/shared/";
+import { CheckboxFiltersGroup, Container, Filters, Title, TopBar} from "@/components/shared/";
 
 
 
@@ -12,8 +12,17 @@ export default function Home() {
       </Container>
       <TopBar/>
       <Container>
-        
+        <div>
+          <div className="w-[250px]">
+            <Filters />
+          </div>
+
+          <div>
+            
+          </div>
+        </div>
       </Container>
+
     </div>
   );
 }
